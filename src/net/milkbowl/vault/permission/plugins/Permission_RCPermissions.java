@@ -31,7 +31,7 @@ import java.util.Set;
 
 public class Permission_RCPermissions extends Permission {
 
-    private final String name = "PermissionsEx";
+    private final String name = "RCPermissions";
     private PermissionsPlugin permission = null;
 
     public Permission_RCPermissions(Plugin plugin) {
