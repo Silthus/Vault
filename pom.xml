@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.milkbowl.vault</groupId>
 	<artifactId>Vault</artifactId>
-	<version>1.2.25-SNAPSHOT</version>
+	<version>1.2.26-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -11,7 +11,7 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>craftbukkit</artifactId>
-			<version>1.5.1-R0.1-SNAPSHOT</version>
+			<version>1.5.2-R0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>de.hydrox.bukkit.DroxPerms</groupId>
@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.tyrannyofheaven.bukkit</groupId>
 			<artifactId>zPermissions</artifactId>
-			<version>0.9.18-SNAPSHOT</version>
+			<version>0.9.19-SNAPSHOT</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/zPermissions.jar</systemPath>
 		</dependency>

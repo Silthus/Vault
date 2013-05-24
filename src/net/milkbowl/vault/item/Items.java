@@ -76,7 +76,7 @@ public class Items {
         items.add(new ItemInfo("Detector Rail", new String[][]{{"rail", "det"}, {"trac", "det"}, {"detec"}}, Material.DETECTOR_RAIL));
         items.add(new ItemInfo("Sticky Piston", new String[][]{{"stic", "pis"}}, Material.PISTON_STICKY_BASE));
         items.add(new ItemInfo("Web", new String[][]{{"web"}, {"cobw"}}, Material.WEB));
-        items.add(new ItemInfo("Dead Shrub", new String[][]{{"dead", "shru"}, {"dese", "shru"}}, Material.LONG_GRASS, (short) 0));
+        items.add(new ItemInfo("Dead Shrub", new String[][]{{"dead", "shru"}, {"dese", "shru"}, {"shrub"}}, Material.LONG_GRASS, (short) 0));
         items.add(new ItemInfo("Tall Grass", new String[][]{{"tall", "gras"}, {"long", "gras"}}, Material.LONG_GRASS, (short) 1));
         items.add(new ItemInfo("Fern", new String[][]{{"fern"}}, Material.LONG_GRASS, (short) 2));
         items.add(new ItemInfo("Piston", new String[][]{{"pist"}}, Material.PISTON_BASE));
@@ -123,7 +123,10 @@ public class Items {
         items.add(new ItemInfo("Torch", new String[][]{{"torc"}}, Material.TORCH));
         items.add(new ItemInfo("Fire", new String[][]{{"fire"}}, Material.FIRE));
         items.add(new ItemInfo("Monster Spawner", new String[][]{{"spawn"}}, Material.MOB_SPAWNER));
-        items.add(new ItemInfo("Wooden Stairs", new String[][]{{"stair", "wood"}}, Material.WOOD_STAIRS));
+        items.add(new ItemInfo("Oak Wood Stairs", new String[][]{{"stair", "wood"}, {"oak", "stair"}}, Material.WOOD_STAIRS));
+        items.add(new ItemInfo("Oak Wood Stairs", new String[][]{{"jung", "stair"}}, Material.JUNGLE_WOOD_STAIRS));
+        items.add(new ItemInfo("Oak Wood Stairs", new String[][]{{"spru", "stair"}}, Material.SPRUCE_WOOD_STAIRS));
+        items.add(new ItemInfo("Oak Wood Stairs", new String[][]{{"birc", "stair"}}, Material.BIRCH_WOOD_STAIRS));
         items.add(new ItemInfo("Chest", new String[][]{{"chest"}}, Material.CHEST));
         items.add(new ItemInfo("Diamond Ore", new String[][]{{"ore", "diam"}}, Material.DIAMOND_ORE));
         items.add(new ItemInfo("Diamond Block", new String[][]{{"diam", "bl"}}, Material.DIAMOND_BLOCK));
@@ -457,6 +460,8 @@ public class Items {
         items.add(new ItemInfo("Carrot on a Stick", new String[][]{{"sti", "carr"}}, Material.CARROT_STICK));
         items.add(new ItemInfo("Potato", new String[][]{{"pota"}}, Material.POTATO_ITEM));
         items.add(new ItemInfo("Potato Block", new String[][]{{"blo", "pota"}}, Material.POTATO));
+        items.add(new ItemInfo("Baked Potato", new String[][]{{"pota", "bak"}}, Material.BAKED_POTATO));
+        items.add(new ItemInfo("Poisonous Potato", new String[][]{{"pota", "poi"}}, Material.POISONOUS_POTATO));
         items.add(new ItemInfo("Wood Button", new String[][]{{"woo", "butto"}}, Material.WOOD_BUTTON));
         items.add(new ItemInfo("Pumpkin Pie", new String[][]{{"pie"}, {"pumpk", "pie"}}, Material.PUMPKIN_PIE));
         items.add(new ItemInfo("Potion of Invisibility", new String[][] {{"pot", "invi"}}, Material.POTION, (short) 8206));
@@ -483,6 +488,7 @@ public class Items {
         items.add(new ItemInfo("Green Firework Star", new String[][]{{"gre", "fire", "star"}}, Material.FIREWORK_CHARGE, (short) 14));
         items.add(new ItemInfo("Red Firework Star", new String[][]{{"red", "fire", "star"}}, Material.FIREWORK_CHARGE, (short) 15));
         items.add(new ItemInfo("Black Firework Star", new String[][]{{"bla", "fire", "star"}}, Material.FIREWORK_CHARGE, (short) 16));
+        items.add(new ItemInfo("Dead Bush", new String[][]{{"dea", "bush"}}, Material.DEAD_BUSH));
         //1.5 Blocks & Items
         items.add(new ItemInfo("Activator Rail", new String[][]{{"rail", "acti"}, {"trac", "acti"}, {"activ"}}, Material.ACTIVATOR_RAIL));
         items.add(new ItemInfo("Block of Redstone", new String[][]{{"blo", "red"}, {"blo", "rs"}}, Material.REDSTONE_BLOCK));
@@ -498,10 +504,11 @@ public class Items {
         items.add(new ItemInfo("Nether Quartz Ore", new String[][]{{"neth", "qua", "ore"}, {"qua", "ore"}}, Material.QUARTZ_ORE));
         items.add(new ItemInfo("Quartz Block", new String[][]{{"qua", "blo"}}, Material.QUARTZ_BLOCK));
         items.add(new ItemInfo("Quartz Slab", new String[][]{{"qua", "slab"}, {"qua", "step"}}, Material.STEP, (short) 7));
+        items.add(new ItemInfo("Quartz Double Slab", new String[][]{{"qua", "dou", "sla"}, {"qua", "dou", "step"}}, Material.DOUBLE_STEP, (short) 7));
         items.add(new ItemInfo("Quartz Stairs", new String[][]{{"qua", "stair"}}, Material.QUARTZ_STAIRS));
         items.add(new ItemInfo("Chiseled Quartz", new String[][]{{"qua", "chis"}}, Material.QUARTZ_BLOCK, (short) 1));
         items.add(new ItemInfo("Quartz Pillar", new String[][]{{"qua", "pil"}}, Material.QUARTZ_BLOCK, (short) 2));
-        items.add(new ItemInfo("Weighted Gold Plate", new String[][]{{"wei", "plat", "gol"}, {"pres", "plat", "iro"}}, Material.GOLD_PLATE));
+        items.add(new ItemInfo("Weighted Gold Plate", new String[][]{{"wei", "plat", "gol"}, {"pres", "plat", "gol"}}, Material.GOLD_PLATE));
         items.add(new ItemInfo("Weighted Iron Plate", new String[][]{{"wei", "plat", "iro"}, {"pres", "plat", "iro"}}, Material.IRON_PLATE));
     }
 
